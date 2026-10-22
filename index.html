@@ -3,10 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoVort</title>
+    <meta name="description" content="Thoughtful everyday essentials for a greener, lower-waste life. Shop sustainable favorites at EcoZora.">
+    <title>EcoZora | A little better, every day</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    
+    <!-- Site header and main navigation -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a class="brand" href="#home" aria-label="EcoZora home">
+                <span class="brand-leaf" aria-hidden="true">❧</span>
+                <span>EcoZora</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a class="cart-link" href="#products" aria-label="Shopping cart">
+                <span aria-hidden="true">▱</span>
+                <span>Cart</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Welcome banner -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-copy">
+                    <p class="eyebrow">A little better, every day</p>
+                    <h1>Make Room for a <span>Greener Life.</span></h1>
+                    <p class="hero-description">
+                        Thoughtful everyday essentials that are kinder to the planet.
+                        Small swaps, less waste, and a brighter tomorrow start at home.
+                    </p>
+                    <a class="button button-primary" href="#products">Explore Products <span aria-hidden="true">→</span></a>
+                    <div class="hero-note">
+                        <span class="note-icon" aria-hidden="true">✳</span>
+                        <span>Good for you. Gentler on Earth.</span>
+                    </div>
+                </div>
+                <div class="hero-image-wrap">
+                    <img
+                        class="hero-image"
+                        src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1100&q=85"
+                        alt="Green plants growing in a sunlit garden"
+                    >
+                    <div class="image-caption">
+                        <span class="caption-mark" aria-hidden="true">✿</span>
+                        <span>Live simply, naturally.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured sustainable essentials -->
+        <section class="products-section section-padding" id="products">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Thoughtful essentials</p>
+                        <h2>Everyday, made better.</h2>
+                    </div>
+                    <p>Simple swaps for a lighter footprint and a happier home.</p>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&w=750&q=80" alt="Natural cotton reusable shopping tote" loading="lazy">
+                            <span class="product-label">Bestseller</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title-row">
+                                <h3>Everyday Tote</h3>
+                                <span class="price">$18</span>
+                            </div>
+                            <p>A sturdy, reusable sidekick for your market runs.</p>
+                            <button class="button button-outline" type="button">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=750&q=80" alt="Bamboo toothbrush with natural bristles" loading="lazy">
+                            <span class="product-label">Plastic-free</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title-row">
+                                <h3>Bamboo Toothbrush</h3>
+                                <span class="price">$6</span>
+                            </div>
+                            <p>A fresh start for your smile and the planet.</p>
+                            <button class="button button-outline" type="button">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=750&q=80" alt="Reusable refillable bottle for everyday cleaning" loading="lazy">
+                            <span class="product-label">Refill & reuse</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title-row">
+                                <h3>Refill Bottle</h3>
+                                <span class="price">$14</span>
+                            </div>
+                            <p>Refill your cleaning routine, not your trash can.</p>
+                            <button class="button button-outline" type="button">Add to Cart</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=750&q=80" alt="Reusable food container ready for a packed lunch" loading="lazy">
+                            <span class="product-label">Daily favorite</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title-row">
+                                <h3>Lunch Keeper</h3>
+                                <span class="price">$22</span>
+                            </div>
+                            <p>Keep your lunch fresh and single-use plastics out.</p>
+                            <button class="button button-outline" type="button">Add to Cart</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our approach to sustainable living -->
+        <section class="about-section section-padding" id="about">
+            <div class="container about-content">
+                <div class="about-art" aria-hidden="true">
+                    <span class="about-sun"></span>
+                    <span class="about-leaf about-leaf-one"></span>
+                    <span class="about-leaf about-leaf-two"></span>
+                    <span class="about-stem"></span>
+                    <span class="about-pot"></span>
+                </div>
+                <div class="about-copy">
+                    <p class="eyebrow">A more mindful way</p>
+                    <h2>Small Changes,<br>Big Impact</h2>
+                    <p>
+                        Sustainable living doesn't have to be complicated. We bring
+                        together useful, thoughtfully made alternatives that help
+                        reduce plastic waste—one everyday choice at a time.
+                    </p>
+                    <a class="text-link" href="#products">Find your first swap <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer and secondary navigation -->
+    <footer class="site-footer" id="contact">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a class="brand" href="#home"><span class="brand-leaf" aria-hidden="true">❧</span><span>EcoZora</span></a>
+                <p>Little swaps. Lighter living.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About Us</a>
+                <a href="mailto:hello@ecozora.example">Contact</a>
+            </nav>
+            <p class="copyright">© 2026 EcoZora. Made with care for our planet.</p>
+        </div>
+    </footer>
 </body>
 </html>
