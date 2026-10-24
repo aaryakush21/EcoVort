@@ -114,5 +114,8 @@ button {
     gap: 1rem;
     border-left: 1px solid var(--light-green);
     border-right: 1px solid var(--light-green);
-   
+   margin-left: 30rem;
+    width: 370px;
+    items-align: center;
+    items-justify: center;
 }
