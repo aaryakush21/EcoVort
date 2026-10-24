@@ -6,15 +6,70 @@
     <title>EcoVort | Shop</title>
     <link rel="icon" type="image/svg+xml" href="assets/ecovort-logo.svg">
     <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .left-nav .search-bar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: min(100%, 380px);
+            padding: 6px;
+            background: #f1f8e9;
+            border: 1px solid #c5d9b8;
+            border-radius: 999px;
+        }
+
+        .left-nav .search-bar input {
+            flex: 1;
+            min-width: 0;
+            padding: 10px 14px;
+            color: #263b2b;
+            background: transparent;
+            border: 0;
+            outline: 0;
+        }
+
+        .left-nav .search-bar input::placeholder {
+            color: #708270;
+        }
+
+        .left-nav .search-bar input:focus-visible {
+            outline: 2px solid #2e7d32;
+            outline-offset: 2px;
+            border-radius: 999px;
+        }
+
+        .left-nav .search-bar button {
+            padding: 10px 18px;
+            color: #fff;
+            font-weight: 600;
+            background: #2e7d32;
+            border: 0;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: background-color 160ms ease;
+        }
+
+        .left-nav .search-bar button:hover {
+            background: #1b5e20;
+        }
+
+        @media (max-width: 480px) {
+            .left-nav .search-bar button {
+                padding-inline: 14px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="navbar">
+           <img src="assets/ecovort-logo.svg" alt="EcoVort" class="logo" spellcheck="false"> <h2>EcoVort</h2>
         <!-- Top Left Nav Bar -->
             <div class="left-nav">
-             <search class="search-bar">
-                <input type="text" placeholder="Search products...">
-                <button type="submit" class="button">Search</button>
-            
+                <form class="search-bar" role="search" action="product.html" method="get">
+                    <input type="search" name="q" placeholder="Search products..." aria-label="Search products">
+                    <button type="submit" class="button">Search</button>
+                </form>
             </div>
         <!-- Top Right Nav Bar -->
             <div class="right-nav">
@@ -33,14 +88,13 @@
                               
                             </a>
             </div>
-        <!-- Bottom  Nav Bar -->
-            <div class="bottom-nav">
+
+    </div>
+              <div class="bottom-nav">
+                <a href=""></a>
                 
 
             </div>
-
-
-    </div>
 
 
     
