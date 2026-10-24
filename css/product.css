@@ -112,7 +112,7 @@ button {
     display: flex;
     align-items: center;
     gap: 1rem;
-    border-left: 85px solid var(--light-green);
+    border-left: 1px solid var(--light-green);
     border-right: 1px solid var(--light-green);
    
 }
